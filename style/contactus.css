@@ -1,0 +1,60 @@
+:root{
+    --primary-color: rgb(87, 51, 25);
+    --secondary-color: white;
+    --third-color: rgb(111, 66, 6);
+  }
+
+  header nav {
+    background-color: var(--primary-color);
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.9em;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:3px solid black;
+    color: white;
+    font-family: 'Roboto', serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1em;
+    line-height: normal;
+    margin: 0;
+  }
+
+  #links a {
+    margin: 10px;
+    text-decoration: none;
+      color: white;
+      line-height: 30px;
+      padding: 0 10px;
+  }
+  
+  #logo {
+    font-size: 2.5em;
+    font-style:italic;
+  }
+
+  #benvenuto {
+      font-size: 2em;
+      font-style:italic;
+    }
+  
+  @media (max-width: 750px) {
+      #logo {
+        font-size: 2em;
+      }
+      #benvenuto {
+          display: none;
+        }
+  }
+
+ .login{
+     margin-top: 200px;
+ }
+
+ 
